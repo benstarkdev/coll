@@ -7,7 +7,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     
     if (email === storedEmail && password === storedPassword) {
         alert("Login Successful! Redirecting to website...");
-        window.location.href = "https://dupewebbybendev.netlify.app/"; // Change to your actual website
+        window.location.href = ""; // Change to your actual website
     } else {
         document.getElementById("login-error").textContent = "Invalid email or password";
     }
